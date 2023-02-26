@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Movie Analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta property="og:image" content="images/thumbnail.png" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="/" class="image avatar"><img src="images/pfp.jpg" alt="" /></a>
+					<h1><strong>I am Justin Atteberry</strong>,<br />
+					recent Computer Science<br />
+					graduate, eager to start my career.<br /></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+                        <ul class="actions">
+							<li><a href="/"class="button">Back</a></li>
+						</ul>
+						<header class="major">
+							<h2>Movie Correlation Analysis</h2>
+						</header>
+						<p>
+							I used Python in a Jupyter Notebook to look at the correlation between the data in this dataset from <a href="https://www.kaggle.com/datasets/danielgrijalvas/movies">Kaggle</a>. 
+							Looking at the heatmap created with Seaborn, the strongest correlation is between budget and gross earnings. Meaning that as the budget for a film gets higher, there is a stronger chance 
+							that the gross earnings will be higher. One interesting thing from the heatmap is the correlation between score and runtime. There is a slight correlation (0.41) between the two and this would 
+							mean that as the film runs longer in theaters, the score for the film is more likely to be higher. This makes sense as films that stay in theaters longer are often ones that are more liked.
+						</p>
+						<ul class="actions">
+							<li><a href="#"class="button popup1_open">Python Correlation Analysis</a></li>
+							<li><a href="https://github.com/JustinAtteberry/DataPortfolio/tree/main/Movie" target="_blank" class="button">Github Repo</a></li>
+						</ul>
+						<section id="popup1">
+							<button class="clsbtn1 clsbtn button" title="Close" aria-label="Close"><span aria-hidden="true">X</span></button>
+							<h1>Movie Correlation Jupyter Notebook</h1>
+							<script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FJustinAtteberry%2FDataPortfolio%2Fblob%2Fmain%2FMovie%2FMovieCorrelationProject.ipynb&style=default&type=ipynb&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+						</section>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/justinatteberry/" target="_blank"  class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/JustinAtteberry" target="_blank"  class="icon brands fa-github"><span class="label">Github</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Designed using <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.popupoverlay.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
