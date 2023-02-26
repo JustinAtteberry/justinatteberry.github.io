@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Physical Strength & Anxiety</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="/" class="image avatar"><img src="images/pfp.jpg" alt="" /></a>
+					<h1><strong>I am Justin Atteberry</strong>,<br />
+					recent Computer Science<br />
+					graduate, eager to start my career.<br /></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+                        <ul class="actions">
+							<li><a href="/"class="button">Back</a></li>
+						</ul>
+						<header class="major">
+							<h2>Physical Strength & Anxiety Data Analysis</h2>
+						</header>
+						<p>
+							I found this dataset from <a href="https://www.kaggle.com/datasets/thedevastator/physical-strength-correlation-with-fear-related" target="_blank">Kaggle</a> and decided to look at the correlation
+							between the strength of the tested individuals and their anxiety scores (HEXACO IPIP 7-point scale). I used SQL to clean the data into an easier to read format, then used SQL again
+							to analize the data and create tables to be used in a Jupyter Notebook to look at their correlation. Looking at the heatmap in the Python Correlation Analysis, there is a high correlation between sex and grip/chest strength. 
+							There is also a high correlation between grip strength and chest strength. There is a slight correlation between all positively keyed anxiety scores. Finally, there is barely some correlation between
+							all negatively keyed anxiety scores.
+						</p>
+						<ul class="actions">
+							<li><a href="#"class="button popup1_open">SQL Data Cleaning</a></li>
+							<li><a href="#"class="button popup2_open">SQL Analysis</a></li>
+							<li><a href="#"class="button popup3_open">Python Correlation Analysis</a></li>
+							<li><a href="https://github.com/JustinAtteberry/DataPortfolio/tree/main/PSF" target="_blank" class="button">Github Repo</a></li>
+						</ul>
+						<section id="popup1">
+							<button class="clsbtn1 clsbtn button" title="Close" aria-label="Close"><span aria-hidden="true">X</span></button>
+							<h1>SQL Data Cleaning</h1>
+							<script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FJustinAtteberry%2FDataPortfolio%2Fblob%2Fmain%2FPSF%2FPSFDataCleaning.sql&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+						</section>
+						<section id="popup2">
+							<button class="clsbtn2 clsbtn button" title="Close" aria-label="Close"><span aria-hidden="true">X</span></button>
+							<h1>SQL Analysis</h1>
+							<script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FJustinAtteberry%2FDataPortfolio%2Fblob%2Fmain%2FPSF%2FPSFAnalysis.sql&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+						</section>
+						<section id="popup3">
+							<button class="clsbtn3 clsbtn button" title="Close" aria-label="Close"><span aria-hidden="true">X</span></button>
+							<h1>SQL Analysis</h1>
+							<script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2FJustinAtteberry%2FDataPortfolio%2Fblob%2Fmain%2FPSF%2FPSFAnxietyCorrelation.ipynb&style=default&type=ipynb&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+						</section>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/justinatteberry/" target="_blank"  class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/JustinAtteberry" target="_blank"  class="icon brands fa-github"><span class="label">Github</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Designed using <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.popupoverlay.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
