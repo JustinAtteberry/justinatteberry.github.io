@@ -2,6 +2,8 @@
 
 Website created by myself using the skeleton of an HTML5 UP template for the basic layout. Listing projects as well as my resume for professional viewing purposes.
 
+Website [here](https://justinatteberry.github.io/)
+
 
 Website skeleton:
 
